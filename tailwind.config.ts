@@ -57,6 +57,21 @@ export default {
           border: "hsl(var(--sidebar-border))",
           ring: "hsl(var(--sidebar-ring))",
         },
+        weather: {
+          sky: {
+            start: "hsl(var(--sky-gradient-start))",
+            end: "hsl(var(--sky-gradient-end))",
+          },
+          rain: "hsl(var(--rain-blue))",
+          sunny: "hsl(var(--sunny-orange))",
+          cloud: "hsl(var(--cloud-gray))",
+        },
+      },
+      backgroundImage: {
+        "sky-gradient": "linear-gradient(to bottom, hsl(var(--sky-gradient-start)), hsl(var(--sky-gradient-end)))",
+      },
+      backdropBlur: {
+        xs: "2px",
       },
       borderRadius: {
         lg: "var(--radius)",
