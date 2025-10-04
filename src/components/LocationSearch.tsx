@@ -6,12 +6,12 @@ interface LocationSearchProps {
 
 const LocationSearch = ({ onLocationSelect }: LocationSearchProps) => {
   const popularCities = [
-    "New York",
-    "London",
-    "Tokyo",
-    "Paris",
+    "Delhi",
     "Mumbai",
-    "Sydney",
+    "Nagpur",
+    "Banglore",
+    "Pune",
+    "Nashik",
   ];
 
   return (
